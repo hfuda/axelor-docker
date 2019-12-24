@@ -1,4 +1,4 @@
-FROM axelor/aio-builder as builder
+FROM axelor-aio-builder as builder
 
 RUN mkdir -p /app/src
 WORKDIR /app/src
